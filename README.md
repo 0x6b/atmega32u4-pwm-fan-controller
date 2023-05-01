@@ -21,6 +21,9 @@ Connect PWM signal to pin `5`, and the RPM signal to the `GND`.
 
 Connect to your Feather 32u4 via [Bluefruit Connect on the App Store](https://apps.apple.com/app/adafruit-bluefruit-le-connect/id830125974), and send a value from 0 to 255 to the controller. The controller will set the PWM duty cycle according to the value.
 
+You can control the fan speed from the companion CLI at [0x6b/atmega32u4-pwm-fan-controller-cli](https://github.com/0x6b/atmega32u4-pwm-fan-controller-cli).
+
+
 ## LICENSE
 
 MIT. See [LICENSE](LICENSE) for details.
